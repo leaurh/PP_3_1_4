@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="https://www.thymeleaf.org"
+      xmlns:sec="https://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
+<head>
+    <link href="../static/style.css" th:href="@{/style.css}" rel="stylesheet"/>
+    <title>Spring Security Example</title>
+</head>
+<body>
+<div class="container">
+<h2>Start Page</h2>
+    <p><a th:href="@{'/user'}">SIGN IN</a></p>
+    <p><a th:href="@{'/logout'}">Logout</a></p>
+
+</div>
+</body>
+</html>
