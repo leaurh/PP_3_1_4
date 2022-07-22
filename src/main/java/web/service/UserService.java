@@ -19,6 +19,8 @@ public interface UserService extends UserDetailsService {
 
     User getUserByEmail(String email);
 
+    User getAuthorizedUser();
+
 
 
 }
